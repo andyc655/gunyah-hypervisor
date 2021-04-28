@@ -20,7 +20,9 @@ cd <desired-installation-path>
 ./<path-to-script>/llvm_musl_build.sh
 ```
 
-> Note, this script requires cmake to be installed.
+> Note, this script expects dependent packages for LLVM toolchain compilation to be installed. This at least includes below:
+cmake
+ninja-build
 
 This script will generate a `llvm-musl-install` folder in the current directory.
 
